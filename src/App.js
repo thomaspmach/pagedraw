@@ -8,7 +8,7 @@ class App extends Component {
     super()
     this.state = {
       mode: "topbar1",
-      rightMode: "code-right-bar1",
+      rightMode: "design-right-bar1",
       binding: false,
       event: false,
       repeat: false,
@@ -16,6 +16,7 @@ class App extends Component {
       link: false,
       cursor: false,
       leftMode: "code-left-bar1",
+      respToolbar: false,
     };
   }
   render() {
@@ -30,19 +31,24 @@ class App extends Component {
         addConditional={this.addConditional.bind(this)}
         addLink={this.addLink.bind(this)}
         addCursor={this.addCursor.bind(this)}
-        changeLeftBar={this.changeLeftBar.bind(this)}/>
+        changeLeftBar={this.changeLeftBar.bind(this)}
+        changeToResponsiveness={this.changeToResponsiveness.bind(this)}/>
     );
   }
 
   changeToDesign() {
     this.setState({
       mode: "topbar1",
+      rightMode: "design-right-bar1",
+      respToolbar: false,
     });
   }
 
   changeToCode() {
     this.setState({
       mode: "topbar2",
+      rightMode: "code-right-bar1",
+      respToolbar: false,
     });
   }
   addBinding() {
@@ -89,6 +95,12 @@ class App extends Component {
   changeLeftBar(step) {
     this.setState({
       leftMode: step,
+    });
+  }
+  changeToResponsiveness() {
+    this.setState({
+      rightMode: "responsiveness1",
+      respToolbar: true,
     });
   }
 }

@@ -10,7 +10,7 @@ function render() {
                 <div className="rightbar-0-0-0">
                     <div className="rightbar-path-7">
                         <div className="rightbar-0-0-0-0-0">
-                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/5156107252586247-1531117408126-4D5D592F-4D37-4EC6-902B-A240B52D85AB.png" className="rightbar-shape-5" /> 
+                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/5156107252586247-1531117408126-4D5D592F-4D37-4EC6-902B-A240B52D85AB.png" onClick={this.props.addBinding} className="rightbar-shape-5" /> 
                         </div>
                         <div className="rightbar-0-0-0-0-1">
                             <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1344526533709461-1531117408124-F9F1E1D0-6790-43A0-BD02-A63CB7E294E2.png" onClick={this.props.addEvent} className="rightbar-path_3" /> 
@@ -29,279 +29,275 @@ function render() {
                         </div>
                         <div className="rightbar-0-0-0-0-6" /> 
                     </div>
-                    <div className="rightbar-0-0-0-1">
+                    <div className="rightbar-path-140">
                         <div className="rightbar-0-0-0-1-0">
-                            <div className="rightbar-path-140">
+                            <div className="rightbar-path-6">
                                 <div className="rightbar-0-0-0-1-0-0-0">
-                                    <div className="rightbar-path-6">
-                                        <div className="rightbar-0-0-0-1-0-0-0-0-0">
-                                            <div className="rightbar-component_vladmir-1">
-                                                COMPONENT MAIN
+                                    <div className="rightbar-component_main-1">
+                                        COMPONENT MAIN
+                                    </div>
+                                    <div className="rightbar-0-0-0-1-0-0-0-1">
+                                        <div className="rightbar-0-0-0-1-0-0-0-1-0">
+                                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1777970413627352-1531117408107-02B45A4C-2104-4AB8-96D7-16E6B3E7F8D2.png" className="rightbar-path_9" /> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="rightbar-0-0-0-1-1">
+                            { this.props.showBindings ?
+                                <div className="rightbar-path-9">
+                                    <div className="rightbar-0-0-0-1-1-0-0-0">
+                                        <div className="rightbar-data_binding-7">DATA BINDING</div>
+                                    </div>
+                                    <div className="rightbar-0-0-0-1-1-0-0-1">
+                                        <div className="rightbar-path-2">
+                                            <div className="rightbar-0-0-0-1-1-0-0-1-0-0">
+                                                <div className="rightbar-0-0-0-1-1-0-0-1-0-0-0">
+                                                    <div className="rightbar-0-0-0-1-1-0-0-1-0-0-0-0">
+                                                        <div className="rightbar-cursor-4">cursor</div>
+                                                    </div>
+                                                </div>
+                                                <div className="rightbar-0-0-0-1-1-0-0-1-0-0-1">
+                                                    <div className="rightbar-0-0-0-1-1-0-0-1-0-0-1-0">
+                                                        <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1780537952921176-1531117408105-9CCD2127-92AA-4266-836F-4F85F90C35B3.png" className="rightbar-path_9-1" /> 
+                                                    </div>
+                                                </div>
+                                                <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1035224361907042-1531117408104-9F3E992A-37DD-475A-BB11-2738E5C33241.png" className="rightbar-line-1" /> 
+                                                <div className="rightbar-0-0-0-1-1-0-0-1-0-0-3">
+                                                    <div className="rightbar-0-0-0-1-1-0-0-1-0-0-3-0">
+                                                        <div className="rightbar-this_props_cursor-2">
+                                                            this.props.cursor
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div className="rightbar-0-0-0-1-0-0-0-0-0-1">
-                                                <div className="rightbar-0-0-0-1-0-0-0-0-0-1-0">
-                                                    <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1777970413627352-1531117408107-02B45A4C-2104-4AB8-96D7-16E6B3E7F8D2.png" className="rightbar-path_9" /> 
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-0-0-0-1-1-0-0-2">
+                                        <div className="rightbar-path-3">
+                                            <div className="rightbar-0-0-0-1-1-0-0-2-0-0">
+                                                <div className="rightbar-0-0-0-1-1-0-0-2-0-0-0">
+                                                    <div className="rightbar-0-0-0-1-1-0-0-2-0-0-0-0">
+                                                        <div className="rightbar-font_size-5">font size</div>
+                                                    </div>
+                                                </div>
+                                                <div className="rightbar-0-0-0-1-1-0-0-2-0-0-1">
+                                                    <div className="rightbar-0-0-0-1-1-0-0-2-0-0-1-0">
+                                                        <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/9538462193669594-1531117408102-9ADCF7C0-B7F7-4E81-ABD2-E8084EFA2DED.png" className="rightbar-path_9-9" /> 
+                                                    </div>
+                                                </div>
+                                                <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1457941107773510-1531117408100-C4A48AE3-E1D5-4A30-84AE-33BE986FF0B6.png" className="rightbar-line-14" /> 
+                                                <div className="rightbar-0-0-0-1-1-0-0-2-0-0-3">
+                                                    <div className="rightbar-0-0-0-1-1-0-0-2-0-0-3-0">
+                                                        <div className="rightbar-this_props_handlecli-5">
+                                                            this.props.handleClick
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="rightbar-0-0-0-1-0-0-1">
-                                    { this.props.showBindings ?
-                                        <div className="rightbar-path-9">
-                                            <div className="rightbar-0-0-0-1-0-0-1-0-0-0">
-                                                <div className="rightbar-data_binding-7">DATA BINDING</div>
-                                            </div>
-                                            <div className="rightbar-0-0-0-1-0-0-1-0-0-1">
-                                                <div className="rightbar-path-2">
-                                                    <div className="rightbar-0-0-0-1-0-0-1-0-0-1-0-0">
-                                                        <div className="rightbar-0-0-0-1-0-0-1-0-0-1-0-0-0">
-                                                            <div className="rightbar-0-0-0-1-0-0-1-0-0-1-0-0-0-0">
-                                                                <div className="rightbar-cursor-4">cursor</div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="rightbar-0-0-0-1-0-0-1-0-0-1-0-0-1">
-                                                            <div className="rightbar-0-0-0-1-0-0-1-0-0-1-0-0-1-0">
-                                                                <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1780537952921176-1531117408105-9CCD2127-92AA-4266-836F-4F85F90C35B3.png" className="rightbar-path_9-1" /> 
-                                                            </div>
-                                                        </div>
-                                                        <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1035224361907042-1531117408104-9F3E992A-37DD-475A-BB11-2738E5C33241.png" className="rightbar-line-1" /> 
-                                                        <div className="rightbar-0-0-0-1-0-0-1-0-0-1-0-0-3">
-                                                            <div className="rightbar-0-0-0-1-0-0-1-0-0-1-0-0-3-0">
-                                                                <div className="rightbar-this_props_cursor-2">
-                                                                    this.props.cursor
-                                                                </div>
-                                                            </div>
+                            : null}
+                        </div>
+                        <div className="rightbar-0-0-0-1-2">
+                            { this.props.showEvents ?
+                                <div className="rightbar-path-5">
+                                    <div className="rightbar-0-0-0-1-2-0-0-0">
+                                        <div className="rightbar-events-1">EVENTS</div>
+                                    </div>
+                                    <div className="rightbar-0-0-0-1-2-0-0-1">
+                                        <div className="rightbar-path-4">
+                                            <div className="rightbar-0-0-0-1-2-0-0-1-0-0">
+                                                <div className="rightbar-0-0-0-1-2-0-0-1-0-0-0">
+                                                    <div className="rightbar-0-0-0-1-2-0-0-1-0-0-0-0">
+                                                        <div className="rightbar-onclick-5">onClick</div>
+                                                    </div>
+                                                </div>
+                                                <div className="rightbar-0-0-0-1-2-0-0-1-0-0-1">
+                                                    <div className="rightbar-0-0-0-1-2-0-0-1-0-0-1-0">
+                                                        <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/7328840426795609-1531117408099-BEE4DBA9-B5D2-4A6B-94AD-5A7423FF941E.png" className="rightbar-path_9-7" /> 
+                                                    </div>
+                                                </div>
+                                                <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/4791391225559826-1531117408097-78D2A57E-FE3E-423C-BBB5-04230211FAA5.png" className="rightbar-line-4" /> 
+                                                <div className="rightbar-0-0-0-1-2-0-0-1-0-0-3">
+                                                    <div className="rightbar-0-0-0-1-2-0-0-1-0-0-3-0">
+                                                        <div className="rightbar-this_props_handlecli-7">
+                                                            this.props.handleClick
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="rightbar-0-0-0-1-0-0-1-0-0-2">
-                                                <div className="rightbar-path-3">
-                                                    <div className="rightbar-0-0-0-1-0-0-1-0-0-2-0-0">
-                                                        <div className="rightbar-0-0-0-1-0-0-1-0-0-2-0-0-0">
-                                                            <div className="rightbar-0-0-0-1-0-0-1-0-0-2-0-0-0-0">
-                                                                <div className="rightbar-font_size-5">font size</div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="rightbar-0-0-0-1-0-0-1-0-0-2-0-0-1">
-                                                            <div className="rightbar-0-0-0-1-0-0-1-0-0-2-0-0-1-0">
-                                                                <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/9538462193669594-1531117408102-9ADCF7C0-B7F7-4E81-ABD2-E8084EFA2DED.png" className="rightbar-path_9-9" /> 
-                                                            </div>
-                                                        </div>
-                                                        <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1457941107773510-1531117408100-C4A48AE3-E1D5-4A30-84AE-33BE986FF0B6.png" className="rightbar-line-14" /> 
-                                                        <div className="rightbar-0-0-0-1-0-0-1-0-0-2-0-0-3">
-                                                            <div className="rightbar-0-0-0-1-0-0-1-0-0-2-0-0-3-0">
-                                                                <div className="rightbar-this_props_handlecli-5">
-                                                                    this.props.handleClick
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    : null}
-                                </div>
-                                <div className="rightbar-0-0-0-1-0-0-2">
-                                    { this.props.showEvents ?
-                                        <div className="rightbar-path-5">
-                                            <div className="rightbar-0-0-0-1-0-0-2-0-0-0">
-                                                <div className="rightbar-events-1">EVENTS</div>
-                                            </div>
-                                            <div className="rightbar-0-0-0-1-0-0-2-0-0-1">
-                                                <div className="rightbar-path-4">
-                                                    <div className="rightbar-0-0-0-1-0-0-2-0-0-1-0-0">
-                                                        <div className="rightbar-0-0-0-1-0-0-2-0-0-1-0-0-0">
-                                                            <div className="rightbar-0-0-0-1-0-0-2-0-0-1-0-0-0-0">
-                                                                <div className="rightbar-onclick-5">onClick</div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="rightbar-0-0-0-1-0-0-2-0-0-1-0-0-1">
-                                                            <div className="rightbar-0-0-0-1-0-0-2-0-0-1-0-0-1-0">
-                                                                <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/7328840426795609-1531117408099-BEE4DBA9-B5D2-4A6B-94AD-5A7423FF941E.png" className="rightbar-path_9-7" /> 
-                                                            </div>
-                                                        </div>
-                                                        <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/4791391225559826-1531117408097-78D2A57E-FE3E-423C-BBB5-04230211FAA5.png" className="rightbar-line-4" /> 
-                                                        <div className="rightbar-0-0-0-1-0-0-2-0-0-1-0-0-3">
-                                                            <div className="rightbar-0-0-0-1-0-0-2-0-0-1-0-0-3-0">
-                                                                <div className="rightbar-this_props_handlecli-7">
-                                                                    this.props.handleClick
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    : null}
-                                </div>
-                                <div className="rightbar-0-0-0-1-0-0-3">
-                                    { this.props.showRepeat ?
-                                        <div className="rightbar-path-15">
-                                            <div className="rightbar-0-0-0-1-0-0-3-0-0-0">
-                                                <div className="rightbar-repeat-3">REPEAT</div>
-                                            </div>
-                                            <div className="rightbar-0-0-0-1-0-0-3-0-0-1">
-                                                <div className="rightbar-path-8">
-                                                    <div className="rightbar-0-0-0-1-0-0-3-0-0-1-0-0">
-                                                        <div className="rightbar-this_props_list-4">
-                                                            this.props.list
-                                                        </div>
-                                                        <div className="rightbar-0-0-0-1-0-0-3-0-0-1-0-0-1">
-                                                            <div className="rightbar-0-0-0-1-0-0-3-0-0-1-0-0-1-0">
-                                                                <div className="rightbar-list-1">LIST</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="rightbar-0-0-0-1-0-0-3-0-0-2">
-                                                <div className="rightbar-path-1">
-                                                    <div className="rightbar-0-0-0-1-0-0-3-0-0-2-0-0">
-                                                        <div className="rightbar-elem-1">elem</div>
-                                                        <div className="rightbar-0-0-0-1-0-0-3-0-0-2-0-0-1">
-                                                            <div className="rightbar-0-0-0-1-0-0-3-0-0-2-0-0-1-0">
-                                                                <div className="rightbar-instance_var-1">INSTANCE VAR</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="rightbar-0-0-0-1-0-0-3-0-0-3">
-                                                <div className="rightbar-path-79">
-                                                    <div className="rightbar-0-0-0-1-0-0-3-0-0-3-0-0">
-                                                        <div className="rightbar-i-5">i</div>
-                                                        <div className="rightbar-0-0-0-1-0-0-3-0-0-3-0-0-1">
-                                                            <div className="rightbar-0-0-0-1-0-0-3-0-0-3-0-0-1-0">
-                                                                <div className="rightbar-react_key-1">REACT KEY</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="rightbar-0-0-0-1-0-0-3-0-0-4">
-                                                <div className="rightbar-path-17">
-                                                    <div className="rightbar-0-0-0-1-0-0-3-0-0-4-0-0">
-                                                        <div className="rightbar-8">8px</div>
-                                                        <div className="rightbar-0-0-0-1-0-0-3-0-0-4-0-0-1">
-                                                            <div className="rightbar-0-0-0-1-0-0-3-0-0-4-0-0-1-0">
-                                                                <div className="rightbar-space_between-1">
-                                                                    SPACE BETWEEN
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    : null}
-                                </div>
-                                <div className="rightbar-0-0-0-1-0-0-4">
-                                    { this.props.showConditional ?
-                                        <div className="rightbar-path-14">
-                                            <div className="rightbar-0-0-0-1-0-0-4-0-0-0">
-                                                <div className="rightbar-conditional-3">CONDITIONAL</div>
-                                            </div>
-                                            <div className="rightbar-0-0-0-1-0-0-4-0-0-1">
-                                                <div className="rightbar-path-88">
-                                                    <div className="rightbar-0-0-0-1-0-0-4-0-0-1-0-0">
-                                                        <div className="rightbar-this_props_show-9">
-                                                            this.props.show
-                                                        </div>
-                                                        <div className="rightbar-0-0-0-1-0-0-4-0-0-1-0-0-1">
-                                                            <div className="rightbar-0-0-0-1-0-0-4-0-0-1-0-0-1-0">
-                                                                <div className="rightbar-condition-1">CONDITION</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="rightbar-0-0-0-1-0-0-4-0-0-2">
-                                                <div className="rightbar-0-0-0-1-0-0-4-0-0-2-0">
-                                                    <div className="rightbar-0-0-0-1-0-0-4-0-0-2-0-0">
-                                                        <div className="rightbar-path-172" /> 
-                                                    </div>
-                                                </div>
-                                                <div className="rightbar-0-0-0-1-0-0-4-0-0-2-1">
-                                                    <div className="rightbar-0-0-0-1-0-0-4-0-0-2-1-0">
-                                                        <div className="rightbar-occupies_space_if_hi-5">
-                                                            Occupies space if hidden
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    : null}
-                                </div>
-                                <div className="rightbar-0-0-0-1-0-0-5">
-                                    { this.props.showLink ?
-                                        <div className="rightbar-path-11">
-                                            <div className="rightbar-0-0-0-1-0-0-5-0-0-0">
-                                                <div className="rightbar-link-4">LINK</div>
-                                            </div>
-                                            <div className="rightbar-0-0-0-1-0-0-5-0-0-1">
-                                                <div className="rightbar-path-29">
-                                                    <div className="rightbar-0-0-0-1-0-0-5-0-0-1-0-0">
-                                                        <div className="rightbar-https_pagedraw_io-7">
-                                                            {"https://pagedraw.io"}
-                                                        </div>
-                                                        <div className="rightbar-0-0-0-1-0-0-5-0-0-1-0-0-1">
-                                                            <div className="rightbar-0-0-0-1-0-0-5-0-0-1-0-0-1-0">
-                                                                <div className="rightbar-url-1">URL</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="rightbar-0-0-0-1-0-0-5-0-0-2">
-                                                <div className="rightbar-0-0-0-1-0-0-5-0-0-2-0">
-                                                    <div className="rightbar-0-0-0-1-0-0-5-0-0-2-0-0">
-                                                        <div className="rightbar-path-59" /> 
-                                                    </div>
-                                                </div>
-                                                <div className="rightbar-0-0-0-1-0-0-5-0-0-2-1">
-                                                    <div className="rightbar-0-0-0-1-0-0-5-0-0-2-1-0">
-                                                        <div className="rightbar-open_in_new_tab-5">
-                                                            Open in new tab
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    : null}
-                                </div>
-                                <div className="rightbar-0-0-0-1-0-0-6">
-                                    { this.props.showCursor ?
-                                        <div className="rightbar-path-49">
-                                            <div className="rightbar-0-0-0-1-0-0-6-0-0-0">
-                                                <div className="rightbar-cursor-1">CURSOR</div>
-                                            </div>
-                                            <div className="rightbar-0-0-0-1-0-0-6-0-0-1">
-                                                <div className="rightbar-path-90">
-                                                    <div className="rightbar-0-0-0-1-0-0-6-0-0-1-0-0">
-                                                        <div className="rightbar-pointer-1">pointer</div>
-                                                        <div className="rightbar-0-0-0-1-0-0-6-0-0-1-0-0-1">
-                                                            <div className="rightbar-0-0-0-1-0-0-6-0-0-1-0-0-1-0">
-                                                                <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/8394959037765710-1531117407921-0AF866A4-3242-4AB9-8843-0CC9E268E067.png" className="rightbar-path_9-8" /> 
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    : null}
-                                </div>
-                                <div className="rightbar-0-0-0-1-0-0-7" /> 
-                                <div className="rightbar-0-0-0-1-0-0-8">
-                                    <div className="rightbar-path-93">
-                                        <div className="rightbar-0-0-0-1-0-0-8-0-0">
-                                            <div className="rightbar-external_code_integr-8">
-                                                EXTERNAL CODE INTEGRATION
-                                            </div>
-                                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1594887504319042-1531117407920-D66055FB-0C78-4D35-80F8-98ABDBA01EA9.png" className="rightbar-plus-1" /> 
                                         </div>
                                     </div>
+                                </div>
+                            : null}
+                        </div>
+                        <div className="rightbar-0-0-0-1-3">
+                            { this.props.showRepeat ?
+                                <div className="rightbar-path-15">
+                                    <div className="rightbar-0-0-0-1-3-0-0-0">
+                                        <div className="rightbar-repeat-3">REPEAT</div>
+                                    </div>
+                                    <div className="rightbar-0-0-0-1-3-0-0-1">
+                                        <div className="rightbar-path-8">
+                                            <div className="rightbar-0-0-0-1-3-0-0-1-0-0">
+                                                <div className="rightbar-this_props_list-4">
+                                                    this.props.list
+                                                </div>
+                                                <div className="rightbar-0-0-0-1-3-0-0-1-0-0-1">
+                                                    <div className="rightbar-0-0-0-1-3-0-0-1-0-0-1-0">
+                                                        <div className="rightbar-list-1">LIST</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-0-0-0-1-3-0-0-2">
+                                        <div className="rightbar-path-1">
+                                            <div className="rightbar-0-0-0-1-3-0-0-2-0-0">
+                                                <div className="rightbar-elem-1">elem</div>
+                                                <div className="rightbar-0-0-0-1-3-0-0-2-0-0-1">
+                                                    <div className="rightbar-0-0-0-1-3-0-0-2-0-0-1-0">
+                                                        <div className="rightbar-instance_var-1">INSTANCE VAR</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-0-0-0-1-3-0-0-3">
+                                        <div className="rightbar-path-79">
+                                            <div className="rightbar-0-0-0-1-3-0-0-3-0-0">
+                                                <div className="rightbar-i-5">i</div>
+                                                <div className="rightbar-0-0-0-1-3-0-0-3-0-0-1">
+                                                    <div className="rightbar-0-0-0-1-3-0-0-3-0-0-1-0">
+                                                        <div className="rightbar-react_key-1">REACT KEY</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-0-0-0-1-3-0-0-4">
+                                        <div className="rightbar-path-17">
+                                            <div className="rightbar-0-0-0-1-3-0-0-4-0-0">
+                                                <div className="rightbar-8">8px</div>
+                                                <div className="rightbar-0-0-0-1-3-0-0-4-0-0-1">
+                                                    <div className="rightbar-0-0-0-1-3-0-0-4-0-0-1-0">
+                                                        <div className="rightbar-space_between-1">
+                                                            SPACE BETWEEN
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            : null}
+                        </div>
+                        <div className="rightbar-0-0-0-1-4">
+                            { this.props.showConditional ?
+                                <div className="rightbar-path-14">
+                                    <div className="rightbar-0-0-0-1-4-0-0-0">
+                                        <div className="rightbar-conditional-3">CONDITIONAL</div>
+                                    </div>
+                                    <div className="rightbar-0-0-0-1-4-0-0-1">
+                                        <div className="rightbar-path-88">
+                                            <div className="rightbar-0-0-0-1-4-0-0-1-0-0">
+                                                <div className="rightbar-this_props_show-9">
+                                                    this.props.show
+                                                </div>
+                                                <div className="rightbar-0-0-0-1-4-0-0-1-0-0-1">
+                                                    <div className="rightbar-0-0-0-1-4-0-0-1-0-0-1-0">
+                                                        <div className="rightbar-condition-1">CONDITION</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-0-0-0-1-4-0-0-2">
+                                        <div className="rightbar-0-0-0-1-4-0-0-2-0">
+                                            <div className="rightbar-0-0-0-1-4-0-0-2-0-0">
+                                                <div className="rightbar-path-172" /> 
+                                            </div>
+                                        </div>
+                                        <div className="rightbar-0-0-0-1-4-0-0-2-1">
+                                            <div className="rightbar-0-0-0-1-4-0-0-2-1-0">
+                                                <div className="rightbar-occupies_space_if_hi-5">
+                                                    Occupies space if hidden
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            : null}
+                        </div>
+                        <div className="rightbar-0-0-0-1-5">
+                            { this.props.showLink ?
+                                <div className="rightbar-path-11">
+                                    <div className="rightbar-0-0-0-1-5-0-0-0">
+                                        <div className="rightbar-link-4">LINK</div>
+                                    </div>
+                                    <div className="rightbar-0-0-0-1-5-0-0-1">
+                                        <div className="rightbar-path-29">
+                                            <div className="rightbar-0-0-0-1-5-0-0-1-0-0">
+                                                <div className="rightbar-https_pagedraw_io-7">
+                                                    {"https://pagedraw.io"}
+                                                </div>
+                                                <div className="rightbar-0-0-0-1-5-0-0-1-0-0-1">
+                                                    <div className="rightbar-0-0-0-1-5-0-0-1-0-0-1-0">
+                                                        <div className="rightbar-url-1">URL</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-0-0-0-1-5-0-0-2">
+                                        <div className="rightbar-0-0-0-1-5-0-0-2-0">
+                                            <div className="rightbar-0-0-0-1-5-0-0-2-0-0">
+                                                <div className="rightbar-path-59" /> 
+                                            </div>
+                                        </div>
+                                        <div className="rightbar-0-0-0-1-5-0-0-2-1">
+                                            <div className="rightbar-0-0-0-1-5-0-0-2-1-0">
+                                                <div className="rightbar-open_in_new_tab-5">
+                                                    Open in new tab
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            : null}
+                        </div>
+                        <div className="rightbar-0-0-0-1-6">
+                            { this.props.showCursor ?
+                                <div className="rightbar-path-49">
+                                    <div className="rightbar-0-0-0-1-6-0-0-0">
+                                        <div className="rightbar-cursor-1">CURSOR</div>
+                                    </div>
+                                    <div className="rightbar-0-0-0-1-6-0-0-1">
+                                        <div className="rightbar-path-90">
+                                            <div className="rightbar-0-0-0-1-6-0-0-1-0-0">
+                                                <div className="rightbar-pointer-1">pointer</div>
+                                                <div className="rightbar-0-0-0-1-6-0-0-1-0-0-1">
+                                                    <div className="rightbar-0-0-0-1-6-0-0-1-0-0-1-0">
+                                                        <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/8394959037765710-1531117407921-0AF866A4-3242-4AB9-8843-0CC9E268E067.png" className="rightbar-path_9-8" /> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            : null}
+                        </div>
+                        <div className="rightbar-0-0-0-1-7" /> 
+                        <div className="rightbar-0-0-0-1-8">
+                            <div className="rightbar-path-93">
+                                <div className="rightbar-0-0-0-1-8-0-0">
+                                    <div className="rightbar-external_code_integr-8">
+                                        EXTERNAL CODE INTEGRATION
+                                    </div>
+                                    <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1594887504319042-1531117407920-D66055FB-0C78-4D35-80F8-98ABDBA01EA9.png" className="rightbar-plus-1" /> 
                                 </div>
                             </div>
                         </div>
@@ -337,7 +333,7 @@ function render() {
                         <div className="rightbar-1-0-0-1-0">
                             <div className="rightbar-path-151">
                                 <div className="rightbar-1-0-0-1-0-0-0">
-                                    <div className="rightbar-component_vladmir-2">
+                                    <div className="rightbar-component_main-2">
                                         COMPONENT MAIN
                                     </div>
                                     <div className="rightbar-1-0-0-1-0-0-0-1">
@@ -475,6 +471,350 @@ function render() {
                         <div className="rightbar-1-0-0-1-8" /> 
                     </div>
                 </div>
+            </div>
+        : null}
+        { (this.props.rightMode === "design-right-bar1") ?
+            <div className="rightbar-design-right-bar1">
+                <div className="rightbar-2-0-0">
+                    <div className="rightbar-path-184">
+                        <div className="rightbar-2-0-0-0-0">
+                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1473147759702104-1531216095773-3C7C6A04-FB6E-40D9-8143-0B689A1A7792.png" className="rightbar-repeat-147" /> 
+                        </div>
+                        <div className="rightbar-2-0-0-0-1">
+                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/8951883747034478-1531216095772-FF3301A2-106C-4E20-87F7-16FEA5497936.png" className="rightbar-artboard-8" /> 
+                        </div>
+                        <div className="rightbar-2-0-0-0-2">
+                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/9148740970680420-1531216095771-A1678448-1F54-4A04-B383-FD7B22D76F36.png" className="rightbar-optional-9" /> 
+                        </div>
+                        <div className="rightbar-2-0-0-0-3">
+                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/9124985901749364-1531216095769-6AE48457-193F-4815-85C7-B3A90B0097DC.png" className="rightbar-shape-9" /> 
+                        </div>
+                        <div className="rightbar-2-0-0-0-4">
+                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/6668651661747618-1531216095768-86BC8DBE-9F00-4AB9-83ED-ACB65C3AEC7F.png" className="rightbar-image-6" /> 
+                        </div>
+                        <div className="rightbar-2-0-0-0-5">
+                            <div className="rightbar-path-34">
+                                <div className="rightbar-2-0-0-0-5-0-0">
+                                    <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1755732703224322-1531216095755-069173D6-3B7B-4CD7-8AB9-09FA61C6CC2C.png" className="rightbar-line_copy-1" /> 
+                                </div>
+                            </div>
+                        </div>
+                        <div className="rightbar-2-0-0-0-6">
+                            <div className="rightbar-2-0-0-0-6-0">
+                                <div className="rightbar-2-0-0-0-6-0-0">
+                                    <div className="rightbar-path-86">
+                                        <div className="rightbar-2-0-0-0-6-0-0-0-0">
+                                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/6316202906368051-1531216095753-D40419D2-B868-46E7-92ED-E302EABA873D.png" className="rightbar-line-6" /> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="rightbar-2-0-0-0-6-1">
+                                <div className="rightbar-2-0-0-0-6-1-0">
+                                    <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1643603302685169-1531216095767-3C944B20-553B-4323-8365-198AE0197990.png" className="rightbar-path_9-16" /> 
+                                </div>
+                            </div>
+                        </div>
+                        <div className="rightbar-2-0-0-0-7">
+                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1739239464711879-1531216095751-227E23FA-66E9-4B3D-AE6C-0ADD6434A176.png" className="rightbar-codeicon-1" /> 
+                        </div>
+                    </div>
+                    <div className="rightbar-path-106">
+                        <div className="rightbar-2-0-0-1-0">
+                            <div className="rightbar-path-63">
+                                <div className="rightbar-2-0-0-1-0-0-0">
+                                    <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/7562194824261353-1531216095750-C5547E99-40E7-492C-B77D-5EB5094E129A.png" className="rightbar-line_6" /> 
+                                    <div className="rightbar-2-0-0-1-0-0-0-1">
+                                        <div className="rightbar-2-0-0-1-0-0-0-1-0">
+                                            <div className="rightbar-path-99" /> 
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-2-0-0-1-0-0-0-2">
+                                        <div className="rightbar-2-0-0-1-0-0-0-2-0">
+                                            <div className="rightbar-2-0-0-1-0-0-0-2-0-0">
+                                                <div className="rightbar-path-12" /> 
+                                                <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/4566749539592265-1531216095749-8938CB68-E870-4AF7-AA93-5D0B94C03173.png" className="rightbar-line_6_" /> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-2-0-0-1-0-0-0-3">
+                                        <div className="rightbar-2-0-0-1-0-0-0-3-0">
+                                            <div className="rightbar-path-19" /> 
+                                        </div>
+                                    </div>
+                                    <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/7595744702221721-1531216095749-C7D92755-AF90-4031-8CB6-20EE46FF26B7.png" className="rightbar-line_6-7" /> 
+                                    <div className="rightbar-2-0-0-1-0-0-0-5">
+                                        <div className="rightbar-2-0-0-1-0-0-0-5-0">
+                                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/7918730913288886-1531216095747-25F2D1B2-3BBC-4DC4-8A43-C167D3A07B21.png" className="rightbar-line_7" /> 
+                                        </div>
+                                        <div className="rightbar-2-0-0-1-0-0-0-5-1">
+                                            <div className="rightbar-path-96" /> 
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-2-0-0-1-0-0-0-6">
+                                        <div className="rightbar-2-0-0-1-0-0-0-6-0">
+                                            <div className="rightbar-2-0-0-1-0-0-0-6-0-0">
+                                                <div className="rightbar-path-124" /> 
+                                                <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1134514257696220-1531216095746-C8153C1B-38A2-43B5-8720-4ACBEAA2FFD7.png" className="rightbar-line_7-1" /> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-2-0-0-1-0-0-0-7">
+                                        <div className="rightbar-2-0-0-1-0-0-0-7-0">
+                                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/6171716175853878-1531216095865-C1D35D5E-E455-4136-8308-B10062ECD924.png" className="rightbar-line_7-6" /> 
+                                        </div>
+                                        <div className="rightbar-2-0-0-1-0-0-0-7-1">
+                                            <div className="rightbar-path-125" /> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="rightbar-2-0-0-1-1">
+                            <div className="rightbar-path-64">
+                                <div className="rightbar-2-0-0-1-1-0-0">
+                                    <div className="rightbar-2-0-0-1-1-0-0-0">
+                                        <div className="rightbar-2-0-0-1-1-0-0-0-0">
+                                            <div className="rightbar-position-1">Position</div>
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-path-67">
+                                        <div className="rightbar-2-0-0-1-1-0-0-1-0">
+                                            <div className="rightbar-14">148</div>
+                                            <div className="rightbar-2-0-0-1-1-0-0-1-0-1">
+                                                <div className="rightbar-2-0-0-1-1-0-0-1-0-1-0">
+                                                    <div className="rightbar-x-1">X</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-path-47">
+                                        <div className="rightbar-2-0-0-1-1-0-0-2-0">
+                                            <div className="rightbar-12">123</div>
+                                            <div className="rightbar-2-0-0-1-1-0-0-2-0-1">
+                                                <div className="rightbar-2-0-0-1-1-0-0-2-0-1-0">
+                                                    <div className="rightbar-y-4">Y</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="rightbar-2-0-0-1-1-0-1">
+                                    <div className="rightbar-2-0-0-1-1-0-1-0">
+                                        <div className="rightbar-2-0-0-1-1-0-1-0-0">
+                                            <div className="rightbar-size-3">Size</div>
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-path-72">
+                                        <div className="rightbar-2-0-0-1-1-0-1-1-0">
+                                            <div className="rightbar-30">301</div>
+                                            <div className="rightbar-2-0-0-1-1-0-1-1-0-1">
+                                                <div className="rightbar-2-0-0-1-1-0-1-1-0-1-0">
+                                                    <div className="rightbar-w-9">W</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-path-128">
+                                        <div className="rightbar-2-0-0-1-1-0-1-2-0">
+                                            <div className="rightbar-23">235</div>
+                                            <div className="rightbar-2-0-0-1-1-0-1-2-0-1">
+                                                <div className="rightbar-2-0-0-1-1-0-1-2-0-1-0">
+                                                    <div className="rightbar-h-1">H</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="rightbar-2-0-0-1-1-0-2">
+                                    <div className="rightbar-2-0-0-1-1-0-2-0">
+                                        <div className="rightbar-2-0-0-1-1-0-2-0-0">
+                                            <div className="rightbar-radius-7">Radius</div>
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-2-0-0-1-1-0-2-1">
+                                        <div className="rightbar-2-0-0-1-1-0-2-1-0">
+                                            <div className="rightbar-oval_3" /> 
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-2-0-0-1-1-0-2-2">
+                                        <div className="rightbar-2-0-0-1-1-0-2-2-0">
+                                            <div className="rightbar-line_1" /> 
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-path-42">
+                                        <div className="rightbar-2-0-0-1-1-0-2-3-0">
+                                            <div className="rightbar-0-6">0</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="rightbar-2-0-0-1-2">
+                            <div className="rightbar-path-16">
+                                <div className="rightbar-2-0-0-1-2-0-0">
+                                    <div className="rightbar-fill-1">FILL</div>
+                                    <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/3722566507618105-1531216095736-0A396CF4-0EA0-4B7D-A21E-2092511A1A1C.png" className="rightbar-plus-3" /> 
+                                </div>
+                            </div>
+                        </div>
+                        <div className="rightbar-2-0-0-1-3">
+                            <div className="rightbar-path-155">
+                                <div className="rightbar-2-0-0-1-3-0-0">
+                                    <div className="rightbar-borders-1">BORDERS</div>
+                                    <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/4874898472737574-1531216095735-B1364E34-B43C-4C9E-AE93-ADE391EA7FFD.png" className="rightbar-plus-4" /> 
+                                </div>
+                            </div>
+                        </div>
+                        <div className="rightbar-2-0-0-1-4">
+                            <div className="rightbar-path-10">
+                                <div className="rightbar-2-0-0-1-4-0-0">
+                                    <div className="rightbar-shadows-7">SHADOWS</div>
+                                    <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1381367612148682-1531216095733-8FC198F5-1126-436D-8E16-9657CA8B8C6B.png" className="rightbar-plus-13" /> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="rightbar-2-0-1" /> 
+            </div>
+        : null}
+        { (this.props.rightMode === "responsiveness1") ?
+            <div className="rightbar-responsiveness1">
+                <div className="rightbar-3-0-0">
+                    <div className="rightbar-path-83">
+                        <div className="rightbar-3-0-0-0-0">
+                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/5534811011196401-1531117410375-A620CE14-A36B-46AB-963F-FFEE61AFDADC.png" className="rightbar-shape-55" /> 
+                        </div>
+                        <div className="rightbar-3-0-0-0-1">
+                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1429368454000207-1531117410374-F12F5C4C-2F73-4A9D-83BF-B70522250A4A.png" className="rightbar-path_3-14" /> 
+                        </div>
+                        <div className="rightbar-3-0-0-0-2">
+                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/4873243626272430-1531117410373-6D1316DF-0D56-4331-879A-7BCE2F4A7209.png" className="rightbar-repeat-4" /> 
+                        </div>
+                        <div className="rightbar-3-0-0-0-3">
+                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/4947170392849922-1531117410372-695DE70B-B517-4B32-91EB-0220126CA086.png" className="rightbar-optional-49" /> 
+                        </div>
+                        <div className="rightbar-3-0-0-0-4">
+                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/2700749648674304-1531117410371-4810DA6E-040D-4526-82D1-80B3C365BC65.png" className="rightbar-link_round-_1110" /> 
+                        </div>
+                        <div className="rightbar-3-0-0-0-5">
+                            <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/4194286487952633-1531117410370-FAE826C6-BE4E-4BAC-828F-32C3B289D410.png" className="rightbar-shape-4" /> 
+                        </div>
+                    </div>
+                    <div className="rightbar-path-188">
+                        <div className="rightbar-3-0-0-1-0">
+                            <div className="rightbar-path-790">
+                                <div className="rightbar-3-0-0-1-0-0-0">
+                                    <div className="rightbar-alignment-1">ALIGNMENT</div>
+                                </div>
+                                <div className="rightbar-3-0-0-1-0-0-1">
+                                    <div className="rightbar-path-644">
+                                        <div className="rightbar-3-0-0-1-0-0-1-0-0">
+                                            <div className="rightbar-fixed_left-6">Fixed left</div>
+                                            <div className="rightbar-3-0-0-1-0-0-1-0-0-1">
+                                                <div className="rightbar-3-0-0-1-0-0-1-0-0-1-0">
+                                                    <div className="rightbar-horizontal-8">HORIZONTAL</div>
+                                                </div>
+                                            </div>
+                                            <div className="rightbar-3-0-0-1-0-0-1-0-0-2">
+                                                <div className="rightbar-3-0-0-1-0-0-1-0-0-2-0">
+                                                    <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1679482625153936-1531117410376-6FE7F5BE-AB5A-4390-8F83-31F3073B988D.png" className="rightbar-path_9-167" /> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="rightbar-3-0-0-1-0-0-2">
+                                    <div className="rightbar-path-165">
+                                        <div className="rightbar-3-0-0-1-0-0-2-0-0">
+                                            <div className="rightbar-fixed_top-8">Fixed top</div>
+                                            <div className="rightbar-3-0-0-1-0-0-2-0-0-1">
+                                                <div className="rightbar-3-0-0-1-0-0-2-0-0-1-0">
+                                                    <div className="rightbar-vertical-1">VERTICAL</div>
+                                                </div>
+                                            </div>
+                                            <div className="rightbar-3-0-0-1-0-0-2-0-0-2">
+                                                <div className="rightbar-3-0-0-1-0-0-2-0-0-2-0">
+                                                    <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1510863638206598-1531117410376-F968C5AC-B081-451E-B07C-703111053BB6.png" className="rightbar-path_9-15" /> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="rightbar-3-0-0-1-1">
+                            <div className="rightbar-path-129">
+                                <div className="rightbar-3-0-0-1-1-0-0">
+                                    <div className="rightbar-size-5">SIZE</div>
+                                </div>
+                                <div className="rightbar-3-0-0-1-1-0-1">
+                                    <div className="rightbar-3-0-0-1-1-0-1-0">
+                                        <div className="rightbar-3-0-0-1-1-0-1-0-0">
+                                            <div className="rightbar-path-177" /> 
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-3-0-0-1-1-0-1-1">
+                                        <div className="rightbar-3-0-0-1-1-0-1-1-0">
+                                            <div className="rightbar-fixed_width-1">Fixed width</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="rightbar-3-0-0-1-1-0-2">
+                                    <div className="rightbar-3-0-0-1-1-0-2-0">
+                                        <div className="rightbar-3-0-0-1-1-0-2-0-0">
+                                            <div className="rightbar-path-939" /> 
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-3-0-0-1-1-0-2-1">
+                                        <div className="rightbar-3-0-0-1-1-0-2-1-0">
+                                            <div className="rightbar-fixed_height-1">Fixed height</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="rightbar-3-0-0-1-2">
+                            <div className="rightbar-path-161">
+                                <div className="rightbar-3-0-0-1-2-0-0">
+                                    <div className="rightbar-other_options-1">
+                                        OTHER OPTIONS
+                                    </div>
+                                </div>
+                                <div className="rightbar-3-0-0-1-2-0-1">
+                                    <div className="rightbar-3-0-0-1-2-0-1-0">
+                                        <div className="rightbar-3-0-0-1-2-0-1-0-0">
+                                            <div className="rightbar-path-24" /> 
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-3-0-0-1-2-0-1-1">
+                                        <div className="rightbar-3-0-0-1-2-0-1-1-0">
+                                            <div className="rightbar-scroll_independently-1">
+                                                Scroll independently
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="rightbar-3-0-0-1-2-0-2">
+                                    <div className="rightbar-3-0-0-1-2-0-2-0">
+                                        <div className="rightbar-3-0-0-1-2-0-2-0-0">
+                                            <div className="rightbar-path-75" /> 
+                                        </div>
+                                    </div>
+                                    <div className="rightbar-3-0-0-1-2-0-2-1">
+                                        <div className="rightbar-3-0-0-1-2-0-2-1-0">
+                                            <div className="rightbar-full_window_height-2">
+                                                Full window height
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="rightbar-3-0-1" /> 
             </div>
         : null}
     </div>;

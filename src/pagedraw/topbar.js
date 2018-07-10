@@ -69,7 +69,7 @@ function render() {
                             <div className="topbar-0-0-0-0-0-6" /> 
                             <div className="topbar-0-0-0-0-0-7">
                                 <div className="topbar-0-0-0-0-0-7-0">
-                                    <div className="topbar-rectangle_1">
+                                    <div onClick={this.props.changeToResponsiveness} className="topbar-rectangle_1">
                                         <div className="topbar-0-0-0-0-0-7-0-0-0">
                                             <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1536012727456734-1531117409643-1A0D2DFD-1061-452E-AD1A-6DE09F5EEF54.png" className="topbar-responsivness_icon-1" /> 
                                         </div>
@@ -135,7 +135,7 @@ function render() {
                             </div>
                             <div className="topbar-1-0-0-0-0-1">
                                 <div className="topbar-1-0-0-0-0-1-0">
-                                    <div className="topbar-pagedraw-teste-11" style={{"color": this.props.color}}>
+                                    <div className="topbar-pagedraw-teste-11">
                                         Pagedraw-teste
                                     </div>
                                 </div>
@@ -183,7 +183,7 @@ function render() {
                             <div className="topbar-1-0-0-0-0-6" /> 
                             <div className="topbar-1-0-0-0-0-7">
                                 <div className="topbar-1-0-0-0-0-7-0">
-                                    <div className="topbar-rectangle_5">
+                                    <div onClick={this.props.changeToResponsiveness} className="topbar-rectangle_5">
                                         <div className="topbar-1-0-0-0-0-7-0-0-0">
                                             <img src="https://pagedraw-images.s3-us-west-1.amazonaws.com/1345002484038681-1531117409651-29D0C47A-5E80-4FCD-B182-D381CADD8531.png" className="topbar-responsivness_icon-13" /> 
                                         </div>
